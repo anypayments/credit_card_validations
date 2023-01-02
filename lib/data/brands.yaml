@@ -17,6 +17,7 @@
       - 8600
   :options:
     :brand_name: Uzcard
+    :skip_luhn: true
 :uzcard_unionpay:
   :rules:
   - length:
@@ -24,7 +25,8 @@
     :prefixes:
       - 6262
   :options:
-    :brand_name: Uzcard-UnionPay
+    :brand_name: Uzcard UnionPay
+    :skip_luhn: true
 :uzcard_mir:
   :rules:
   - length:
@@ -32,7 +34,8 @@
     :prefixes:
       - 5614
   :options:
-    :brand_name: Uzcard-MIR
+    :brand_name: Uzcard MIR
+    :skip_luhn: true
 :humo:
   :rules:
   - length:
@@ -41,6 +44,7 @@
       - 9860
   :options:
     :brand_name: HUMO
+    :skip_luhn: true
 :mastercard:
   :rules:
   - :length:
